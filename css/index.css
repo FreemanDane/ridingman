@@ -1,0 +1,54 @@
+body{
+	background-image:url(./../img/bg.jpg);
+	background-size: contain;
+	width:100%;
+	height:100%;
+	font-family:"Microsoft Yahei","Source Han Sans",Times, serif;
+}
+
+#main-ui{
+	left:0;
+	width:100%;
+	height:142vw;
+	position:absolute;
+	border:2px solid #c3c3c3;
+}
+
+
+#start-button{
+	border-radius:20%;
+	color:palegreen;
+	top:20%;
+	left:20%;
+	width:60%;
+	height:15%;
+	position:absolute;
+	background-color:mediumpurple;
+	font-size:200%;
+	display:block;
+}
+
+#help-button{
+	border-radius:20%;
+	color:palegreen;
+	top:45%;
+	left:20%;
+	width:60%;
+	height:15%;
+	position:absolute;
+	background-color:mediumpurple;
+	font-size:200%;
+	display:block;
+}
+
+#result{
+	height:100%;
+	width:100%;
+	font-size:150%;
+	text-align: center;
+	display:none;
+}
+
+#no{
+	font-size:200%;
+}
